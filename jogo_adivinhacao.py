@@ -98,24 +98,13 @@ def jogo_adivinhacao():
         except ValueError:
             print('Entrada inválida! Por favor, digite um número inteiro.')
 
-    if not acertou:
-        print(f'Você perdeu! O número secreto era {numero_secreto}.')
-    print('Obrigado por jogar!')
+            if not acertou:
+                print(f'Você perdeu! O número secreto era {numero_secreto}.')
+               
+print('Obrigado por jogar!')
 
 # Execute o jogo
 if __name__ == '__main__':
     jogo_adivinhacao()
     
     
-
-
-
-
-
-
-print('Obrigado por jogar!')
-
-
-#Execute o jogo
-if __name__ == '__main__':
-    jogo_adivinhacao()
