@@ -65,7 +65,7 @@ def jogo_adivinhacao():
 
     numero_secreto = random.randint(1, limite_superior)
     tentativas = 0
-    acertou = 0 
+    acertou = False
 
 
     while not acertou and tentativas < tentativas_max:
@@ -98,10 +98,10 @@ def jogo_adivinhacao():
         except ValueError:
             print('Entrada inválida! Por favor, digite um número inteiro.')
 
-            if not acertou:
-                print(f'Você perdeu! O número secreto era {numero_secreto}.')
+    if not acertou:
+        print(f'Você perdeu! O número secreto era {numero_secreto}.')
                
-print('Obrigado por jogar!')
+        print('Obrigado por jogar!')
 
 # Execute o jogo
 if __name__ == '__main__':
