@@ -16,8 +16,3 @@ Um jogo simples de adivinhação onde o jogador tenta descobrir um número secre
 - Python
 - Módulo `random`
 
-## Como executar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/jogo-adivinhacao.git
